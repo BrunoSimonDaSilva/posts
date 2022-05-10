@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post App</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+
+<body>
+    <h1>Post App</h1>
+    <div class="container">
+        <div class="left">
+            <form id="form">
+                <label for="post">Esceva seu comentário:</label>
+                <br><br>
+                <textarea name="post" id="input" cols="30" rows="10">
+                </textarea>
+                <br><br>
+                <div id="msg">
+
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="right">
+            <h3>Comentarios</h3>
+            <div id="posts">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Amet nobis voluptatum alias
+                         voluptas, veniam a, sed minus illum laboriosam 
+                         nihil labore explicabo voluptatibus excepturi
+                          eveniet autem fuga qui facilis itaque?</p>
+                    <span class="options">
+                        <i class="fas fa-edit"></i>
+                        <i class="fas fa-trash-alt"></i>
+                    </span>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                         adipisicing elit. Amet nobis voluptatum alias
+                          voluptas, veniam a, sed minus illum laboriosam
+                           nihil labore explicabo voluptatibus excepturi
+                            eveniet autem fuga qui facilis itaque?</p>
+                    <span class="options">
+                        <i class="fas fa-edit"></i>
+                        <i class="fas fa-trash-alt"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
